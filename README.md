@@ -1,3 +1,25 @@
+# Kafka-Spark-Cassandra Data Pipeline with YOLO v5 for Pothole Detection
+
+## Description
+
+This repository implements a data pipeline for pothole detection in images using Kafka, Spark, and Cassandra. Image data is streamed through Kafka and analyzed with Spark. YOLO v5, an advanced object detection model, identifies potholes, and results are stored in Cassandra with unique UUIDs for each record. This setup showcases the application of big data technologies and machine learning for real-time analysis.
+
+
+## Tools and Technologies
+
+- **Kafka**: Manages real-time data streaming.
+- **Zookeeper**: Coordinates and manages Kafka brokers.
+- **Spark**: Processes and analyzes data streams.
+- **Cassandra**: NoSQL database for high-availability storage.
+- **YOLO v5**: Object Detection model.
+- **Python Packages**:
+  - `pyspark`: Interfaces with Spark.
+  - `torch`: Runs YOLO v5 model.
+  - `base64`: Encodes and decodes image data.
+  - `kafka-python`: Handles Kafka operations.
+  - `json`: Manages JSON data.
+
+
 # Project Setup and Instructions
 
 ## Setup and Prepare
